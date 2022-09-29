@@ -1,0 +1,149 @@
+<!DOCtype html>
+
+<head>
+       <title>CSS DEMO</title> 
+<!--1.TYPES OF CSS STYLING
+        
+        A. INTERNAL CSS STYLING: For this, you can just name the HTML attribute by name or class or a specific id. 
+            e.g  Is it a Paragragh, a named id or class you want affected by it. 
+                1.You could use 'P' when you want to target all the paragraghs on the page.
+                2.You could use a specific id. For eample, if you want only one paragragh affected,
+                    you could name the paragragh using an id. You could go to the <p> html attribute and give it an id 
+                    i.e. <p id="paragragh1"> and then you indicate this using the #symbol before the {background...}
+                3. You could also use the Class after indicating the class after the html element in order to differentiate it. 
+                    For example; you could identify a particular class with <p class="top" id="paragraph1"> and then you indicate this using 
+                    a full stop and then the name of the class you indicated i.e. .top{background...}
+            
+                Also, the INTERNAL CSS STYLING is always in the HEAD TAG unlike the Inline CSS Style.
+
+                Example: in between a style tag <style></style>, you have any of these;
+
+                 1. p{ background-color:#350303; color:#f8fcff} - All HTML paragragh attibutes
+                 2. #paragraph1{ background-color:#350303; color:#f8fcff} - The named paragragh1 indicated 
+                 3. .top{background-color:#350303; color:#f8fcff}  - The indicated class 
+                You may also list all the tags or attibutes you want affected. All you have to do is to list all before the {background...}
+                e.g. h1,h3,p{background...}
+
+        B. INLINE CSS STYLING: It only affects the line or paragraph in which it is placed.
+
+        C. EXTERNAL CSS STYLING: For this, you have to create a new CSS File and list out your changes/effects/targets 
+           by stating all the attributes or tags you want affected. 
+           After this, you link the HTML file(webpage) with the CSS file using the link tag on the html webpage.
+
+           For example; THIS IS USED TO LINK BOTH THE HTML AND CSS:
+           
+           <link rel="stylesheet" type="text/css" href="style.css"> (This is in between the head tag though.)
+
+           2. FONTS IN CSS
+        There are two categories of fonts.
+         1. Serif
+         2. Sans Serif: Highly recommended. Easier to read.
+         You may choose others you like too.
+
+    -->
+    
+    <link rel="stylesheet" type="text/css" href="style.css"> 
+
+  </head>
+ 
+  
+    <body>
+<h1>CSS DEMO</h1>
+
+        <h3 style="background-color:#1f5088; color:#f8fafa"> THIS IS AN INLINE CSS STYLE WHICH ONLY AFFAECTS THE LINE 
+        OR PARAGRAPH IN WHICH IT WAS PLACED.</h3>
+        <!-- INLINE CSS STYLING: It only affects the line or paragraph in which it is placed.-->
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Iste vel sint voluptate? Vitae hic modi eos rerum sequi,
+        illo eaque reiciendis tenetur ipsam delectus doloremque impedit, quos fugiat! Corporis, sapiente.
+        Taxation of employment income falls under the Personal Income Tax. 
+        It requires a special consideration because the preponderant majority of those paying personal income tax in Nigeria are in paid employment
+        and subject to the Pay As You Earn Scheme (PAYE). Also, taxation of employment income constitutes an important source of revenue for state governments in Nigeria.
+        It is instructive at the onset to note that PAYE is not a separate tax. 
+        Rather, it is a form of withholding tax system or deduction of tax at source in order to reduce tax evasion.</p>
+
+<h1>NOTES ON CSS STYLING; FONTS AND STYLES</h1>
+<h1>FONTS IN CSS</h1>
+
+        <p>1. Serif <br>
+           2. Sans Serif: Highly recommended. Easier to read.<br>
+          You may choose others you like as well.</p>
+
+          <h1>1.TYPES OF CSS STYLING</h1>
+        
+         <h3>A. INTERNAL CSS STYLING:</h3> <p> For this, you can just name the HTML attribute by name or class or a specific id. 
+              e.g  Is it a Paragragh, a named id or class you want affected by it. <br>
+                  1.You could use 'P' when you want to target all the paragraghs on the page.<br>
+            <br>  2.You could use a specific id. For eample, if you want only one paragragh affected,
+                      you could name the paragragh using an id. You could go to the html attribute and give it an id 
+                      i.e. and then you indicate this using the #symbol before the {background...}<br>
+                  3. You could also use the Class after indicating the class after the html element in order to differentiate it. <br> 
+                      For example; you could identify a particular class with and then you indicate this using 
+                      a full stop and then the name of the class you indicated i.e. .top{background...}</p><br>
+              
+                  <p>Also, the INTERNAL CSS STYLING is always in the HEAD TAG unlike the Inline CSS Style.</p><br>
+  
+                  <p>Example: in between a style tag <style></style>, you have any of these;<br>
+  
+                   1. p{ background-color:#350303; color:#f8fcff} - All HTML paragragh attibutes.<br>
+                   2. #paragraph1{ background-color:#350303; color:#f8fcff} - The named paragragh1 indicated<br>
+                   3. .top{background-color:#350303; color:#f8fcff}  - The indicated class.<br>
+                  You may also list all the tags or attibutes you want affected. All you have to do is to list all before the {background...}
+                  e.g. h1,h3,p{background...}</p><br>
+  
+      <h3>B. INLINE CSS STYLING:</h3> <P>It only affects the line or paragraph in which it is placed.</p><br> 
+  
+      <h3>C. EXTERNAL CSS STYLING:</h3> <p>For this, you have to create a new CSS File and list out your changes/effects/targets 
+             by stating all the attributes or tags you want affected. 
+             After this, you link the HTML file(webpage) with the CSS file using the link tag on the html webpage.<br>
+  
+             For example; THIS IS USED TO LINK BOTH THE HTML AND CSS:
+             
+             <link rel="stylesheet" type="text/css" href="style.css"> (This is in between the head tag though.)</p><br>
+
+
+
+<h3>ADDING BORDERS IN CSS</h3>
+             <p> For the Paragraphs, you may have these elements:<br>
+                padding:50px; <br>
+                border-style: solid;<br>
+                border-style: dashed;<br>
+                border-style: dotted;<br>
+                border-style: double;<br>
+                border-style: ridge;<br>
+                border-style: groove;<br>
+                border-style: inset;<br>
+                border-style: outset;<br>
+                border-width: 5px;<br>
+                border-color: #800080;<br>
+                border-radius: 10px;<br></p>
+
+                <p> For the Headings;<br>
+                border-top-style:dotted;<br>
+                border-bottom-style:dotted;<br>
+                border-left-style:solid;<br>
+                border-left-width: 10px;<br></p>
+
+<h3>ADDING BACKGROUNDS TO CSS</h3><br>
+                <p>html tag is used because that would target the whole page<br>
+                html{ <br>
+                color:white; <br>
+                background-image: url("Background.jpg");<br>
+                background-repeat: no-repeat; <br>
+                background-position: center; <br>
+                background-size: cover; <br>
+                background-attachment: fixed;</p>}
+
+            
+<h3>ADDING BACKGROUND COLOURS TO HEADINGS; LINEAR-GRADIENT</h3>
+              <p>h1{background: linear-gradient(red,orange,yellow, green,blue,purple)}</p> 
+<h3>ADDING BACKGROUND COLOURS TO PARAGRAPHS; LINEAR-GRADIENT</h3>
+           <p>p{background: linear-gradient(grey, black)}</p> 
+                    
+        
+                                                                                                                                                                                                                                                                                                                                                                                                                                              </p>
+</body>
+
+        
+</html>

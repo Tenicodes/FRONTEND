@@ -1,0 +1,75 @@
+/*Background colors to paragraphs, font styles and colors*/
+p {
+  background-color: #ffffff;
+  color: #f8fcff;
+  font-family: "Times New Roman", "MV Boli", "Ink Free";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  text-decoration: wavy;
+  color: black;
+
+  /*Borders to paragraphs, styles and colors*/
+  padding: 50px;
+  border-style: solid;
+  border-style: dashed;
+  border-style: dotted;
+  border-style: double;
+  border-style: ridge;
+  border-style: groove;
+  border-style: inset;
+  border-style: outset;
+  border-width: 5px;
+  border-color: #800080;
+  border-radius: 10px;
+}
+
+/* Background color to headings, fonts colors and styles*/
+
+h1 {
+  background-color: #ffffff;
+  color: #0a0f58;
+  font-family: "Times New Roman", Times, serif, Helvetica, sans-serif, Georgia,
+    "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial,
+    sans-serif, "Franklin Gothic Medium", "Arial Narrow", Arial, Cambria, Cochin,
+    Georgia, Times, "Times New Roman", serif;
+  font-size: large;
+
+  /*ADDING BORDERS, STYLING AND COLORS TO HEADINGS*/
+  border-top-style: solid;
+  border-bottom-style: dotted;
+  border-left-style: solid;
+  border-left-width: 10px;
+
+  /*ADDING BACKGROUND COLOURS TO HEADINGS; LINEAR-GRADIENT*/
+  background: linear-gradient(red, orange, yellow, green, blue, purple);
+}
+/*ADDING BACKGROUNG COLOR, STYLING AND DIFFERENT FONTS TO HEADINGS*/
+h3 {
+  background-color: #0a0f58;
+  color: #f8fcff;
+  font-family: "Times New Roman", Times, serif, Helvetica, sans-serif, Georgia,
+    "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial,
+    sans-serif, "Franklin Gothic Medium", "Arial Narrow", Arial, Cambria, Cochin,
+    Georgia, Times, "Times New Roman", serif;
+  font-size: large;
+}
+
+/*ADDING BACKGROUNDS TO CSS*/
+
+html {
+  color: white;
+  background-image: url("Background 3.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+h1 {
+  /*ADDING BACKGROUND COLOURS TO HEADINGS; LINEAR-GRADIENT*/
+  background: linear-gradient(red, orange, yellow, green, blue, purple);
+}
+/*ADDING BACKGROUND COLOURS TO PARAGRAPHS; LINEAR-GRADIENT*/
+p {
+  background: linear-gradient(grey, black);
+}

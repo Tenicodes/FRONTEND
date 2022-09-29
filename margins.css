@@ -1,0 +1,130 @@
+/*PSEUDO CLASS IN CSS*/
+
+a:link {
+  color: #78ffd0;
+}
+a:visited {
+  color: red;
+}
+button:hover {
+  background-color: rgb(153, 161, 161);
+  color: white;
+}
+button:active {
+  background-color: rgb(18, 18, 70);
+}
+li:first-child {
+  background-color: rgb(163, 108, 163);
+}
+li:last-child {
+  background-color: rgb(145, 135, 135);
+}
+li:nth-child(even) {
+  background-color: rgb(252, 122, 219);
+}
+
+/*ADDING BACKGROUNDS TO CSS*/
+
+html {
+  color: #000000;
+  background-image: url("Background 3.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/* MARGINS IN CSS*/
+
+html {
+  margin-top: -21px;
+  margin-left: -8px;
+}
+/* THOUGH, I DON'T UNDERSTAND WHY HE INCLUDED THIS(HTML TAG). IT'S CAUSING WEIRD LINES*/
+
+h2 {
+  border: 1px solid;
+  width: 300px;
+  margin-bottom: 0px;
+}
+
+p {
+  border: 5px solid;
+  width: 250px;
+  padding: 50px;
+}
+
+#Para1 {
+  margin: 25px;
+}
+
+#Para2 {
+  margin-top: 5px;
+  margin-right: 75px;
+  margin-bottom: 5px;
+  margin-left: 75px;
+}
+/*This is the same as margin: 25px 75px 25px 75px;*/ /*NorthEastSouthWest*/
+
+#Para3 {
+  margin: 20%;
+}
+
+#Para4 {
+  margin-left: auto;
+}
+
+#Para5 {
+  margin-right: auto;
+}
+
+#Para6 {
+  margin: auto;
+}
+
+/*SHADOWS*/
+
+#heading1 {
+  border: 1px solid;
+  width: 200px;
+  padding: 25px;
+  background-color: #000000;
+  color: white;
+  border-color: #000000;
+
+  text-shadow: 0px 0px 5px yellow, 0px -5px 5px red;
+  /*  horizontal (px)
+        vertical (px)
+        blur (px)
+        color(name,rgb,hex)*/
+
+  box-shadow: 10px 10px 5px #666666;
+  /*  horizontal (px)
+        vertical (px)
+        blur (px)
+        color(name,rgb,hex)*/
+}
+
+/*PSEUDO CLASS IN CSS
+             This basically means adding shades to links when clicked on a website.
+             For example; Links, buttons and lists.<br>
+             It also includes adding colours to differnt paragraphs while adjusting the tone of the shade and all.</h3>
+    
+             1. Using "a href = a:link{color:#......} Link original color.
+             2. Using "a href = a:visited{color:#......} Link colour after user clicks and visted the site.
+             3. Using "Button" = button:hover{background-color:#......; color:white;} Button colour when a mouse crosses or is on it.
+             4. Using "Button" = button:active{background-color:#......;} Button color when the clicked by the user.
+             5. Using "Unordered lists" = li:first-child{background-color:#......}
+             6. Using "Unordered lists" = li:last-child{background-color:#......}
+             7. Using "Unordered lists" = li:nth-child(add){background-color:#......}
+             8. Using "Unordered lists" = li:nth-child(odd){background-color:#......}
+             9. Using "Unordered lists" = li:nth-child(even){background-color:#......}
+             10.Using "Unordered lists" = li:nth-child(an+b){background-color:#......}
+                where nth-child(an+b), 
+                    a = cycle
+                    n = counter (starts at 0)
+                    b = offset value;
+            You may also change background color, opacity or even create a border for that particular text or listed paragragh by;
+                background-image: linear-gradient(to right, color#......) 
+                opacity: 0.5px;
+                border: 1px solid;*/

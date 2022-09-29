@@ -1,0 +1,51 @@
+<!DOCtype html>
+<html>
+    <head>
+        
+    <!-- TYPES PF CSS STYLING
+        
+        1. INTERNAL CSS STYLING: For this, you can just name the HTML attribute by name or class or a specific id. 
+            e.g  Is it a Paragragh, a named id or class you want affected by it. 
+                1.You could use 'P' when you want to target all the paragraghs on the page.
+                2.You could use a specific id. For eample, if you want only one paragragh affected,
+                you could name the paragragh using an id. You could go to the <p> html attribute and give it an id 
+                i.e. <p id="paragragh1"> and then you indicate this using the #symbol before the {background...}
+                3. You could also use the Class after indicating the class after the html element in order to differentiate it. 
+                For example; you could identify a particular class with <p class="top" id="paragraph1"> and then you indicate this using 
+                    a full stop and then the name of the class you indicated i.e. .top{background...}
+            
+                Also, the INTERNAL CSS STYLING is always in the HEAD TAG unlike the Inline CSS Style.
+
+                Example: <style>
+                 1. p{ background-color:#350303; color:#f8fcff} - All HTML paragragh attibutes
+                 2. #paragraph1{ background-color:#350303; color:#f8fcff} - The named paragragh1 indicated 
+                 3. .top{background-color:#350303; color:#f8fcff}  - The indicated class  -->
+    
+
+    <style>
+
+    p{
+        background-color:#be1717; 
+        color:#f8fcff
+    }
+
+    </style>
+  </head>
+    <body>
+        <h1>CSS DEMO</h1>
+
+        <h3 style="background-color:#1c0338; color:#f8fafa"> THIS IS AN INLINE CSS STYLE WHICH ONLY AFFAECTS THE LINE 
+        OR PARAGRAPH IN WHICH IT WAS PLACED.</h3>
+        <!-- INLINE CSS STYLING: It only affects the line or paragraph in which it is placed.-->
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Iste vel sint voluptate? Vitae hic modi eos rerum sequi,
+        illo eaque reiciendis tenetur ipsam delectus doloremque impedit, quos fugiat! Corporis, sapiente.</p>
+
+
+    </body>
+
+
+
+
+</html>

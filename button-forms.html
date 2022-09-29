@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>BUTTONS, FORMS</title>
+</head>
+<body style="background-color:rgb(20, 133, 127)"></body>
+<body>
+    
+<h1> BUTTONS - TYPES, COLOURS AND ALL</h1>
+<br>
+
+        <button name="simple_button" type="button">
+            Click me ;)
+        </button>
+         <br>
+         <button name="Submit_button" type="Submit" value="Submit"> 
+            Submit
+        </button>
+        <br><br>
+        <button name="Reset_button" type="Reset" Value="Reset">
+            Reset
+        </button>
+        <br><br>
+        <button disabled>
+             Disabled
+        </button>
+        <br>
+        <br><button autofocus>
+             autofocus
+        </button>
+        <br>
+        <br> <button onclick="alert('You clicked on a button OMG! Hahaha') ">
+            ALERT!
+        </button>
+        <br>
+    <a href="https://www.google.com">
+        <br><button>
+            Go back to Google
+        </button>
+    </a>
+
+        <br><br>
+
+    <h1>ADDING CSS TO BUTTONS</h1>
+    <button style="background-color:rgb(105, 10, 10); 
+                    color:antiquewhite;
+                    font-size: 18px;
+                    font-family: Gill Sans;">
+             CSS Style
+    </button>
+
+    <h1> CREATING FORMS</h1>
+    <form>
+        <label for="first_name"> First Name:</label>
+        <input type="text" id="first_name" name="first_name" placeholder="Spongebob">
+
+        <br><br>
+        <label for="last_name"> Last Name:</label>
+        <input type="text" id="last_name" name="last_name" placeholder="Squarepants">
+        
+        <br><br>
+        <label for="Title"> Title:</label>
+        <label for="Mr."> Mr.</label>
+        <input type="radio" value="Mr." id="Mr." name="title">
+        <label for="Mrs."> Mrs.</label>
+        <input type="radio" value="Mrs." id="Mrs." name="title">
+        <label for="Miss"> Miss</label>
+        <input type="radio" value="Miss." id="Miss." name="title">
+        <label for="Ph.D"> Ph.D</label>
+        <input type="radio" value="PhD" id="PhD." name="title">
+
+        <br><br>
+        <label for="Email"> Email:</label>
+        <input type="email" id="email" name="title" placeholder="SSpongebob@gmail.com">
+        
+        <br><br>
+        <label for="Birthday">Birthday:</label>
+        <input type="date" id="date" name="birthday" min="2000-01-01"> 
+
+        <br><br>
+        <label for="Quantity"> Quantity:</label>
+        <input type="number" id="quantity" name="quantity" min="0" max="99" value="1">
+    
+        <br><br>
+        <label for="Phone #"> Phone#:</label>
+        <input type="tel" id="phone" name="phone">
+
+        <br><br>
+        <label for="Password"> Password:</label>
+        <input type="password" id="pass" name="pass" maxlength="12"> max 12 characters
+
+        <br><br>
+        <label for="Slider"> Rate us:</label>
+        1<input type="range" step="25" value="100">5 
+
+        <br><br>
+        <label for="Payment"> Payment:</label>
+        <select id="Payment">
+            <option value="visa">Visa</option>
+            <option value="mastercard"> Mastercard</option>
+            <option value="Giftcard">Giftcard</option>
+            <option value="Pay with Bank Transfer">Pay with Bank Transfer</option>
+            <option value="Pay with USSD">Pay with USSD</option>
+            <option value="Broke and have no money">Broke and have no money</option>
+            <option value="Do giveaway">Do giveaway</option>
+        </select>
+
+        <br><br>
+        <label for="myfile"> Upload a File:</label>
+        <input type="file" id="myfile" name="myfile" accept=".txt">
+
+        <br><br>
+        <label for="subscribe"> subscribe</label>
+        <input type="checkbox" id="subscribe" name="subscribe">
+
+        <br><br>
+         <button name="Reset_button" type="Reset" Value="Reset">
+        Reset
+         </button>
+        <br><br><br>
+        <button name="Submit_button" type="Submit" value="Submit"> 
+            Submit
+        </button>
+
+        
+
+
+    </form>
+    
+</body>
+
+
+</html>
